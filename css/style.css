@@ -1,0 +1,15 @@
+#header {
+	background-color: #005581;
+}
+
+.headerelem {
+	color: #ffd200;
+	padding-bottom: 15px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.headerelem:hover {
+	color: white;
+	text-decoration: none;
+}
