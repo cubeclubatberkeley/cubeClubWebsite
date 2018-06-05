@@ -13,3 +13,20 @@
 	color: white;
 	text-decoration: none;
 }
+
+.card {
+	text-align: center;
+	color: black;
+	background-color: white;
+	border-radius: 0;
+	border-width: 0;
+}
+
+.side {
+	background-color: #f1f1f1;
+	border-width: 0px;
+}
+
+footer {
+	background-color: gray;
+}
