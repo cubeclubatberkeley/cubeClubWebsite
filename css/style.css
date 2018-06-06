@@ -13,3 +13,27 @@
 	color: white;
 	text-decoration: none;
 }
+
+.row {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.card {
+	text-align: center;
+	color: black;
+	background-color: white;
+	border-radius: 0;
+	border-width: 0;
+}
+
+.side {
+	background-color: #f1f1f1;
+	border-width: 0px;
+}
+
+footer {
+	background-color: #f1f1f1;
+}
