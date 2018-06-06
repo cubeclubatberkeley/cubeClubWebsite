@@ -2,11 +2,9 @@
 	background-color: #005581;
 }
 
-.page-content {
+.page-top {
 	/* add to page top so fixed navbar won't affect*/
 	padding-top:100px; 
-	padding-left:150px;
-	padding-right:150px;
 }
 
 .row {
