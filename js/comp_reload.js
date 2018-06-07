@@ -37,7 +37,7 @@ function make_comps_table(comp_obj){
 		table.append("<thead><tr><th>Competition Name</th><th>Dates</th><th>Location</th></tr></thead>");
 		table.append("<tbody>");
 		while(comp_num < comp_obj.length) {
-			table.append("<tr><td><a href=\"" + "https://" + comp_obj[comp_num].link + "\">" + comp_obj[comp_num].name + "</a></td><td>" + comp_obj[comp_num].dates + "</td><td>" + comp_obj[comp_num].location + "</td></tr>")
+			table.append("<tr><td><a href=\"https://" + comp_obj[comp_num].link + "\">" + comp_obj[comp_num].name + "</a></td><td>" + comp_obj[comp_num].dates + "</td><td>" + comp_obj[comp_num].location + "</td></tr>")
 			comp_num = comp_num + 1;
 		}
 		table.append("</tbody>")
