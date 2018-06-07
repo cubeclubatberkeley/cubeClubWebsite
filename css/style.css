@@ -33,6 +33,11 @@
 	border-width: 0px;
 }
 
+table {
+	margin: 0 auto;
+	width: 80%
+}
+
 footer {
 	background-color: #f1f1f1;
 }
