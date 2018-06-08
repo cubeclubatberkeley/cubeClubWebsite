@@ -98,25 +98,26 @@
 						<div class="row"> 
 
 						<!-- Start Card -->
-						<div class="card-ind col-sm-6 col-md-4 col-lg-4">
-						  <div class="card  ">
-							<img class="card-img-top" src="img/members/manu.jpg" alt="Card image cap">
-							<div class="card-body">
-							  <h5 class="card-title">Abhimanyu Singal</h5>
-							  <p class="card-text">
-							  	Beginner/Advanced <br>
-								WCAID: <a href="https://www.worldcubeassociation.org/persons/2013SING12">2013SING12</a>
-							  </p>
+						<div class="card-ind col-sm-6 col-md-4 col-lg-2">
+							<div class="card">
+							
+								<div class="card-body">
+									<img class="card-img-top" src="img/members/manu.jpg" data-toggle="tooltip" data-placement="left" title="Hi, I'm Abhimanyu (but I often go by Manu)! I'm a third year student studying CS and physics with a Japanese minor and this is my 4th semester teaching the decal. I started cubing in 2012 and my favorite WCA event is Rubik's Clock!">
+									<h5 class="card-title">Abhimanyu Singhal</h5>
+									<p class="card-text">
+										Beginner/Advanced <br>
+										WCAID: <a href="https://www.worldcubeassociation.org/persons/2013SING12">2013SING12</a>
+									</p>
+								</div>
 							</div>
-						  </div>
 						</div>
 						<!-- End Card -->
 
 						<!-- Start Card -->
-						<div class="card-ind col-sm-6 col-md-4 col-lg-4">
+						<div class="card-ind col-sm-6 col-md-4 col-lg-2">
 						  <div class="card  ">
-							<img class="card-img-top" src="img/members/zod.jpg" alt="Card image cap">
 							<div class="card-body">
+							  <img class="card-img-top" src="img/members/zod.jpg" data-toggle="tooltip" data-placement="left" title="I go by Zod and I am the god of cubing and literally everything I do. I started cubing in 2014 and my favorite event is OH because I'm a god at it.">
 							  <h5 class="card-title">Jiazheng Zhao</h5>
 							  <p class="card-text">
 							  	Beginner/Advanced <br>
@@ -138,10 +139,32 @@
 			<div class="col-1"></div>
 		</div>
 
+		<footer class="container-fluid row">
+
+			<div class="container-fluid row">
+				<div class="col-10" style="padding:15px">
+					<small class="font-weight-light align-bottom">© 2018 Rubik's Cube Club at Berkeley. All rights reserved.</small>
+					<br>
+					<small class="font-weight-light align-bottom">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
+					</small>
+				</div>
+				<div class="col-2 text-justify" style="padding:10px"> 
+				<a href="https://www.ocf.berkeley.edu" style="width:10px">
+					<img  src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg" alt="Hosted by the OCF" style="border: 0;"/>
+				</a>
+				</div>
+			</div>
+		</footer>
+
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function(){
+			    $('[data-toggle="tooltip"]').tooltip(); 
+			});
+		</script>
 	</body>
 </html>
