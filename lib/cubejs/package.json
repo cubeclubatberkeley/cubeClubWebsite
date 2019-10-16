@@ -1,0 +1,82 @@
+{
+  "_from": "cubejs",
+  "_id": "cubejs@1.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-NuHpWIR/mpjrP3YpU6OaXAbo34idWlzo86GnAqGDG96OHDKyavTAelMyruZ77SgPhQ8l9IcP6/rzXoNcAy9OaQ==",
+  "_location": "/cubejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cubejs",
+    "name": "cubejs",
+    "escapedName": "cubejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cubejs/-/cubejs-1.3.2.tgz",
+  "_shasum": "3c33212e610549fc0c8ca98040048fc50c027861",
+  "_spec": "cubejs",
+  "_where": "C:\\Users\\Manu\\projects\\CalCubeClubWebsite\\lib",
+  "author": {
+    "name": "akheron",
+    "url": "http://www.digip.org/about/"
+  },
+  "bugs": {
+    "url": "https://github.com/ldez/cubejs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "deprecated": false,
+  "description": "JavaScript library for modeling and solving the 3x3x3 Rubik's Cube",
+  "devDependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.3.2",
+    "del": "^4.0.0",
+    "fancy-log": "^1.3.2",
+    "gulp": "^4.0.0",
+    "gulp-coffee": "^3.0.2",
+    "gulp-coffeelint": "^0.6.0",
+    "jasmine-core": "^3.2.1",
+    "karma": "^4.0.1",
+    "karma-coffee-preprocessor": "^1.0.1",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "homepage": "https://github.com/ldez/cubejs#readme",
+  "keywords": [
+    "rubik's cube",
+    "3x3",
+    "scrambler",
+    "solver"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ldez",
+      "url": "https://twitter.com/ludnadez"
+    }
+  ],
+  "name": "cubejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldez/cubejs.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "demo:build": "gulp demo:build",
+    "prepublish": "gulp build",
+    "test": "gulp test",
+    "test:auto": "gulp test:auto"
+  },
+  "version": "1.3.2"
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+		<!-- Roboto font -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<title>Cal Cube Club</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="header">
+			<a class="navbar-brand" href="index.html" >
+				<img src="img/logo-2line-sm.png" height="50px"> 
+			</a>	
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				<a class="nav-item nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link active" href="timer.html">Timer</a>
+				<a class="nav-item nav-link" href="resources.html">Resources</a>
+				<a class="nav-item nav-link" href="decal.html">Decal</a>
+				<a class="nav-item nav-link"  href="members.html">Members</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid page-top">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10 text-center">
+					<h1>Scrambler and Timer</h1>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10 card text-center">
+					<span id="scramble-sequence"></span>
+					<div class="row">
+						<div class="col-10">
+							<span id="time"><h2>0.00</h2></span>
+						</div>
+						<div class="col-2">
+							<table id="t">
+								<tbody></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+
+		<footer class="container-fluid row">
+
+			<div class="container-fluid row">
+				<div class="col-10" style="padding:15px">
+					<small class="font-weight-light align-bottom">© 2019 Rubik's Cube Club at Berkeley. All rights reserved.</small>
+					<br>
+					<small class="font-weight-light align-bottom">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
+					</small>
+				</div>
+				<div class="col-2 text-justify" style="padding:10px"> 
+				<a href="https://www.ocf.berkeley.edu" style="width:10px">
+					<img  src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg" alt="Hosted by the OCF" style="border: 0;"/>
+				</a>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+		<script src="./lib/cubejs/lib/cube.js"></script>
+		<script src="./lib/cubejs/lib/solve.js"></script>
+		<script src="./js/scrambler.js"></script>
+	</body>
+</html>
