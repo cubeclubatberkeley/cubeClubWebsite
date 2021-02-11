@@ -1,5 +1,11 @@
 <!doctype html>
 <html lang="en">
+	<style>
+		iframe{
+			width: min(80vw, 100vw-100);
+			height: min(70vh, 107vw);
+		}
+	</style>
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -12,7 +18,7 @@
 		<!-- Roboto font -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-		<title>Cal Cube Club</title>
+		<title>Leaderboard</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="header">
@@ -25,42 +31,38 @@
 		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 				<a class="nav-item nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link active" href="comps.html">Competitions</a>
+				<a class="nav-item nav-link" href="timer.html">Timer</a>
 				<a class="nav-item nav-link" href="resources.html">Resources</a>
 				<a class="nav-item nav-link" href="decal.html">Decal</a>
 				<a class="nav-item nav-link"  href="members.html">Members</a>
-				<a class="nav-item nav-link" href="leaderboard.html">Leaderboard</a>
+				<a class="nav-item nav-link active" href="leaderboard.html">Leaderboard</a>
 				</div>
 			</div>
 		</nav>
 
-		<div class="container-fluid page-top">
-			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10 text-center">
-					<h1>Upcoming Competitions in California</h1>
-				</div>
-				<div class="col-1"></div>
-			</div>
+		<div class="container-fluid row">
+			<div class="col-1 "></div>
+			<div class="col-10 page-top"></div>
+			<div class="col-1"></div>
 		</div>
 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10 card text-center">
-					<table class="table-striped">
-						
-					</table>
-				</div>
-				<div class="col-1"></div>
+		<div class="container-fluid row" >
+			<div class="col-1 "></div>
+			<div class="col-10">
+				<h1>Leaderboard</h1>
+				<a href="https://forms.gle/YkWcJCPu5HQU4PY47">Submission Form</a>
+				<br/>
+				<br/>
+				<iframe width="100%" height="100%" src="https://datastudio.google.com/embed/reporting/b8dbfe06-231c-4915-a763-b10d0d1ada68/page/uTZ1B" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
+			<div class="col-1 "></div>
 		</div>
 
 		<footer class="container-fluid row">
 
 			<div class="container-fluid row">
 				<div class="col-10" style="padding:15px">
-					<small class="font-weight-light align-bottom">© 2018 Rubik's Cube Club at Berkeley. All rights reserved.</small>
+					<small class="font-weight-light align-bottom">© 2019 Rubik's Cube Club at Berkeley. All rights reserved.</small>
 					<br>
 					<small class="font-weight-light align-bottom">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
 					</small>
@@ -73,12 +75,11 @@
 			</div>
 		</footer>
 
+		
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
-		<script src="js/comp_reload.js"></script>
 	</body>
 </html>
