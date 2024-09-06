@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubik&#39;s Cube Club at Berkeley</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Rubik&#39;s Cube Club at Berkeley</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calendar</title>
+      <link>https://example.org/calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/calendar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competitions</title>
+      <link>https://example.org/competitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/competitions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeCal</title>
+      <link>https://example.org/decal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/decal/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
