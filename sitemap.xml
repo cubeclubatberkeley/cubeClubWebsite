@@ -4,7 +4,7 @@
   
     
       <url>
-            <loc>https://example.org/calendar/</loc>
+            <loc>https://cube.studentorg.berkeley.edu/calendar/</loc>
           </url>
     
   
@@ -12,19 +12,19 @@
   
     
       <url>
-            <loc>https://example.org/competitions/</loc>
+            <loc>https://cube.studentorg.berkeley.edu/competitions/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://example.org/decal/</loc>
+            <loc>https://cube.studentorg.berkeley.edu/decal/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://example.org/</loc>
+            <loc>https://cube.studentorg.berkeley.edu/</loc>
           </url>
     
   

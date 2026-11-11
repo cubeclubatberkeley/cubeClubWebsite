@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Rubik&#39;s Cube Club at Berkeley</title>
-		<link>https://example.org/</link>
+		<link>https://cube.studentorg.berkeley.edu/</link>
 		<description>Recent content on Rubik&#39;s Cube Club at Berkeley</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,26 +10,26 @@
 		
 		
 		
-			<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://cube.studentorg.berkeley.edu/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Calendar</title>
-				<link>https://example.org/calendar/</link>
+				<link>https://cube.studentorg.berkeley.edu/calendar/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://example.org/calendar/</guid>
+				<guid>https://cube.studentorg.berkeley.edu/calendar/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Competitions</title>
-				<link>https://example.org/competitions/</link>
+				<link>https://cube.studentorg.berkeley.edu/competitions/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://example.org/competitions/</guid>
+				<guid>https://cube.studentorg.berkeley.edu/competitions/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>DeCal</title>
-				<link>https://example.org/decal/</link>
+				<link>https://cube.studentorg.berkeley.edu/decal/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://example.org/decal/</guid>
+				<guid>https://cube.studentorg.berkeley.edu/decal/</guid>
 				<description></description>
 			</item>
 	</channel>
